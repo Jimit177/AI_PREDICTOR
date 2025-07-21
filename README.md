@@ -8,6 +8,7 @@ This repository contains the complete source code, configuration, and data for a
 
 - `backend.ipynb` – Jupyter Notebook for data scraping, feature engineering, labeling, model training, and prediction.
 - `app.py` – Streamlit app to visualize and select predictions for either NIFTY or BANKNIFTY.
+- `OptionsTrade_EDA.ipynb` – Jupyter Notebook for EDA of the losses that were occuring previously can be considered a A (Control) group in A/B testing.
 - `nifty_banknifty_../` – All the csv files are saved in each folders separately as every time the app is executed the data updates .
 - `final_models/` – Trained model files saved for each timeframe and symbol.
 - `requirements.txt` – All required dependencies.
@@ -20,12 +21,12 @@ This repository contains the complete source code, configuration, and data for a
 ### 1. Clone the Repository
 
 ```bash
-git clone https://github.com/yourusername/ai-options-predictor.git
-cd ai-options-predictor
+git clone https://github.com/jimit177/AI_PREDICTOR.git
+cd AI_PREDICTOR
 ```
 
 ### 2. Set Up Virtual Environment
-Pythone version 3.10
+## Pythone version 3.10
 ```bash
 python -m venv venv
 # For Windows:
