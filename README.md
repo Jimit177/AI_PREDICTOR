@@ -25,7 +25,7 @@ cd ai-options-predictor
 ```
 
 ### 2. Set Up Virtual Environment
-
+Pythone version 3.10
 ```bash
 python -m venv venv
 # For Windows:
