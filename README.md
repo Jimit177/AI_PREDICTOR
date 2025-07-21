@@ -10,6 +10,7 @@ This repository contains the complete source code, configuration, and data for a
 - `app.py` – Streamlit app to visualize and select predictions for either NIFTY or BANKNIFTY.
 - `OptionsTrade_EDA.ipynb` – Jupyter Notebook for EDA of the losses that were occuring previously can be considered a A (Control) group in A/B testing.
 - `nifty_banknifty_../` – All the csv files are saved in each folders separately as every time the app is executed the data updates .
+- `Docs/` – Contains all the assignment files .
 - `final_models/` – Trained model files saved for each timeframe and symbol.
 - `requirements.txt` – All required dependencies.
 - `.gitignore` – Ignores local files like `venv/` and cache folders.
